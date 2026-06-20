@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "勝手にコミットしてくれるボロ"
+          git config user.email "qianyuyangvip@gmail.com"
           git add .
           git commit -m "chore: heartbeat $(date -u)" || echo "no changes"
           git push
